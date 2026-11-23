@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Навчання — Математичний факультет ЗНУ</title>
+    <link rel="shortcut icon" href="./image/favicon.ico" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/main.css" />
+</head>
+<body>
+    <header class="header">
+        <div class="wrapper">
+            <div class="header__wrapper">
+                <div class="wrapper__logo">
+                    <a href="./index.html" class="wrapper__logo-link">
+                        <img src="./image/logo.png" alt="Логотип ЗНУ" width="64" height="64" class="wrapper__logo-pic" />
+                    </a>
+                </div>
+
+                <nav class="header__nav">
+                    <ul class="header__list-menu">
+                        <li class="header__item">
+                            <a href="./index.html" class="header__link">Головна</a>
+                        </li>
+                        <li class="header__item">
+                            <a href="./news.html" class="header__link">Новини</a>
+                            <ul class="header__submenu">
+                                <li><a href="./news.html#events" class="header__submenu-link">Події факультету</a></li>
+                                <li><a href="./news.html#science" class="header__submenu-link">Наука та ІТ</a></li>
+                            </ul>
+                        </li>
+                        <li class="header__item">
+                            <a href="./education.html" class="header__link header__link--active">Навчання</a>
+                            <ul class="header__submenu">
+                                <li><a href="./education.html#schedule" class="header__submenu-link">Розклад занять</a></li>
+                                <li><a href="./index.html#directions" class="header__submenu-link">Напрями підготовки</a></li>
+                            </ul>
+                        </li>
+                        <li class="header__item">
+                            <a href="./contacts.html" class="header__link">Контакти</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main class="main" id="schedule">
+        <h1>Розклад занять на поточний семестр</h1>
+        <hr />
+
+        <table class="schedule-table">
+            <thead>
+                <tr>
+                    <th>День тижня</th>
+                    <th>Пара (Час)</th>
+                    <th>Навчальна дисципліна</th>
+                    <th>Вид заняття</th>
+                    <th>Корпус / Формат</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Понеділок</td>
+                    <td>1 пара (08:30 – 09:50)</td>
+                    <td>Вебтехнології та вебдизайн</td>
+                    <td>Лекція</td>
+                    <td>1 корпус / Moodle</td>
+                </tr>
+                <tr>
+                    <td>Понеділок</td>
+                    <td>2 пара (10:05 – 11:25)</td>
+                    <td>Вебтехнології та вебдизайн</td>
+                    <td>Лабораторна</td>
+                    <td>1 корпус, ауд. 308</td>
+                </tr>
+                <tr>
+                    <td>Вівторок</td>
+                    <td>1 пара (08:30 – 09:50)</td>
+                    <td>Математичний аналіз</td>
+                    <td>Лекція</td>
+                    <td>1 корпус, ауд. 214</td>
+                </tr>
+                <tr>
+                    <td>Середа</td>
+                    <td>2 пара (10:05 – 11:25)</td>
+                    <td>Об’єктно-орієнтоване програмування</td>
+                    <td>Практична</td>
+                    <td>1 корпус, ауд. 312</td>
+                </tr>
+                <tr>
+                    <td>Четвер</td>
+                    <td>3 пара (11:40 – 13:00)</td>
+                    <td>Дискретні структури</td>
+                    <td>Практична</td>
+                    <td>1 корпус, ауд. 206</td>
+                </tr>
+                <tr>
+                    <td>П’ятниця</td>
+                    <td>1 пара (08:30 – 09:50)</td>
+                    <td>Іноземна мова за професійним спрямуванням</td>
+                    <td>Практична</td>
+                    <td>Дистанційно (Zoom)</td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+
+    <footer class="footer">
+        <div class="wrapper footer__wrapper">
+            <img src="./image/logo.png" alt="Логотип ЗНУ" width="52" height="52" class="footer__logo" />
+            <p>&copy; 2025 Математичний факультет ЗНУ. Всі права захищено.</p>
+        </div>
+    </footer>
+</body>
+</html>
